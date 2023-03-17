@@ -1,0 +1,13 @@
+// ユーザーアイコン複数時 - 重ね＆ズラし
+#header .user {
+    display: flex;
+    @for $i from 1 through 3 {
+        .user__icon:nth-child(#{$i}) {
+            margin-right: -8px;
+            z-index: calc(4 - #{$i});
+        }
+    }
+}
+
+// ヘルプコンテンツ - ボタン色変更
+.cz-help-container .bgc-yellow {background-color: #FFE036;}

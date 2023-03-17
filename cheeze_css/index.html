@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheeze｜大分 ホームページ制作 Webデザイン UI/UX</title>
+    <meta name="description" content="私たち株式会社チーズは、大分県大分市の気持ちが良い体験をデザインするWebデザイン・UI/UXデザインカンパニーです。">
+    <meta property="og:title" content="Cheeze｜大分 ホームページ制作 Webデザイン UI/UX">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="私たち株式会社チーズは、大分県大分市の気持ちが良い体験をデザインするWebデザイン・UI/UXデザインカンパニーです。">
+    <meta property="og:url" content="https://cheeze.jp">
+    <meta property="og:site_name" content="Cheeze｜大分 ホームページ制作 Webデザイン UI/UX">
+    <meta property="og:image" content="https://cheeze.jp/og-img/ogp.png">
+    <link rel="canonical" href="https://cheeze.jp">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Cheeze.CSS -->
+    <link rel="stylesheet" href="css/destyle.css">
+    <link rel="stylesheet" href="css/cheeze.css">
+    <!-- / Cheeze.CSS -->
+
+    <!-- 追加CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- / 追加CSS -->
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- / Google Fonts -->
+</head>
+
+<body class="js-nav-active">
+    <!-- =============== header =============== -->
+    <header id="header" class="js-nav-active">
+        <div id="toggle-header">
+            <button id="nav__toggle" onclick="jsToggleHeaderNavi();">
+                <span class="toggle__bar"></span>
+                <span class="toggle__bar"></span>
+                <span class="toggle__bar"></span>
+            </button>
+        </div>
+        <!-- / #toggle-header -->
+        <div id="main-header">
+            <h1 class="home"><a class="home__link" href="#"><img class="home__icon" src="img/logo.svg" alt="株式会社cheeze"></a></h1>
+            <div class="user users">
+                <div class="user__icon"><img class="user__img" src="img/user-01.png" alt="cheeze"></div>
+                <div class="user__icon"><img class="user__img" src="img/user-02.png" alt="cheeze"></div>
+                <div class="user__icon"><img class="user__img" src="img/user-03.png" alt="cheeze"></div>
+                <div class="user__icon"><img class="user__img" src="img/user-04.png" alt="cheeze"></div>
+            </div>
+        </div>
+        <!-- / #main-header -->
+    </header>
+    <!-- =============== / header =============== -->
+
+    <!-- =============== main =============== -->
+    <main id="main">
+
+        <div id="nav-header" class="js-nav-active">
+            <nav id="nav">
+                <!-- 編集領域 -->
+                <ul class="cz-nav-list">
+                    <li class="nav__item current"><a class="nav__link" href="#"><span class="emoji">&#x1F3E0;</span><span class="nav__name">トップ</span></a></li>
+                    <li class="nav__item"><a class="nav__link" href="#"><span class="emoji new-badge">&#x1F514;</span><span class="nav__name">お知らせ</span></a></li>
+                    <li class="nav__item"><a class="nav__link" href="#"><span class="emoji">&#x1F4D4;</span><span class="nav__name">cheeze.cssとは</span></a></li>
+                    <li class="nav__item"><a class="nav__link" href="#"><span class="emoji">&#x1F4D4;</span><span class="nav__name">会社概要<span></a></li>
+                </ul>
+                <p class="cz-nav-message">このWebサイトは<a href="#">Cheese.css</a>を利用して制作しています。</p>
+                <!-- /編集領域 -->
+            </nav>
+            <small id="copyright">(C)cheeze</small>
+        </div>
+        <!-- / #main-header -->
+
+        <section id="center-container" class="js-nav-active" role="main">
+            <!-- 編集領域 -->
+            <a class="cz-message-bar" href="#"><span class="message__text">お知らせ｜cheeze.cssの軽微なアップデートを行いました。</span></a>
+            <h1 class="cz-head-L">デジタルプロダクト開発をもっと早く、スムーズに</h1>
+            <img class="cz-img-full" src="img/cheeze-main-image.png" alt="株式会社cheeze">
+            <p>Cheeze.cssは、デジタルプロダクト開発に最適なレスポンシブCSSフレームワークです。MVP開発や本実装の際でもアクセシビリティ等の品質を担保しながらもスムーズは開発を行うことに適しています。</p>
+            
+            <div class="cz-form-group">
+                <div class="cz-input-head">入力（テキスト）</div>
+                <input type="text" placeholder="例文テキスト">
+                <p class="cz-input-notes">※入力説明テキスト</p>
+                <p class="cz-input-error">入力してください</p>
+            </div>
+
+            <div class="cz-form-group">
+                <div class="cz-input-head">入力（数字）</div>
+                <input type="number" placeholder="123456789">
+                <p class="cz-input-notes">※入力説明テキスト</p>
+                <p class="cz-input-error">入力してください</p>
+            </div>
+
+            <div class="cz-form-group">
+                <div class="cz-input-head">入力（E-mail）</div>
+                <input type="email" placeholder="example@sample.com" autocomplete="on">
+                <p class="cz-input-notes">※入力説明テキスト</p>
+                <p class="cz-input-error">入力してください</p>
+            </div>
+
+            <div class="cz-form-group">
+                <div class="cz-input-head">入力（TEL）</div>
+                <input type="email" placeholder="000-0000-0000" autocomplete="on">
+                <p class="cz-input-notes">※入力説明テキスト</p>
+                <p class="cz-input-error">入力してください</p>
+            </div>
+
+            <div class="cz-form-group">
+                <div class="cz-input-head">セレクトボックス</div>
+                <label class="cz-input-select">
+                    <select>
+                        <option value="" selected>選択してください</option>
+                        <option>選択肢01</option>
+                        <option>選択肢02</option>
+                        <option>選択肢03</option>
+                        <option>選択肢04</option>
+                    </select>
+                </label>
+                <p class="cz-input-notes">※入力説明テキスト</p>
+                <p class="cz-input-error">入力してください</p>
+            </div>
+
+            <div class="cz-form-group">
+                <div class="cz-input-head">デイトピッカー</div>
+                <input type="date" value="2022/10/31" autocomplete="on">
+                <p class="cz-input-notes">※入力説明テキスト</p>
+                <p class="cz-input-error">入力してください</p>
+            </div>
+
+            <div class="cz-form-group">
+                <div class="cz-input-head">記述テキスト</div>
+                <textarea rows="5"></textarea>
+                <p class="cz-input-notes">※入力説明テキスト</p>
+                <p class="cz-input-error">入力してください</p>
+            </div>
+
+            <div class="cz-btn-group">
+                <button class="cz-btn-primary">メインボタン</button>
+                <button class="cz-btn-secondary">サブボタン</button>
+                <button class="cz-btn">汎用ボタン</button>
+                <button class="cz-btn-denger">削除ボタン</button>
+            </div>
+
+            <a class="cz-help-link" href="#">ヘルプ</a>
+
+            <nav class="cz-pagination">
+                <ul class="pagination-list">
+                  <li class="pagination-item"><a class="pagination-link" href="#">Previous</a></li>
+                  <li class="pagination-item"><a class="pagination-link" href="#">1</a></li>
+                  <li class="pagination-item"><a class="pagination-link" href="#">2</a></li>
+                  <li class="pagination-item"><a class="pagination-link" href="#">3</a></li>
+                  <li class="pagination-item"><a class="pagination-link" href="#">Next</a></li>
+                </ul>
+            </nav>
+            
+            <!-- /編集領域 -->
+        </section>
+        <!-- / #center-container -->
+
+        <aside id="sidebar" role="complementary">
+            <!-- 編集領域 -->
+            <article class="cz-help-container">
+                <hgroup class="head">
+                    <span class="emoji">&#x1F381;</span>
+                    <h1 class="head--name">ダウンロード</h1>
+                </hgroup>
+                <p class="help--text">現在cheeze.cssのご利用は、フィードバックを頂ける開発パートナー様のみとさせて頂いております。</p>
+                <a class="help--link" href="#">お問い合わせ</a>
+            </article>
+
+            <article class="cz-help-container">
+                <hgroup class="head">
+                    <span class="emoji">&#x1F527;</span>
+                    <h1 class="head--name">会社概要</h1>
+                </hgroup>
+                <p class="help--text">Cheese.cssは、UX/UIデザインスタジオの株式会社チーズが開発しています。</p>
+                <a class="help--link bgc-yellow" href="#">Cheeseについて</a>
+            </article>
+            <!-- /編集領域 -->
+        </aside>
+        <!-- / #sidebar -->
+
+    </main>
+    <!-- =============== / main =============== -->
+
+    <!-- Cheeze.CSS -->
+    <script src="js/cheeze.js"></script>
+    <!-- / Cheeze.CSS -->
+</body>
+</html>

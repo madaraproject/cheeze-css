@@ -1,0 +1,20 @@
+#header .user {
+  display: flex;
+}
+#header .user .user__icon:nth-child(1) {
+  margin-right: -8px;
+  z-index: calc(4 - 1);
+}
+#header .user .user__icon:nth-child(2) {
+  margin-right: -8px;
+  z-index: calc(4 - 2);
+}
+#header .user .user__icon:nth-child(3) {
+  margin-right: -8px;
+  z-index: calc(4 - 3);
+}
+
+.cz-help-container .bgc-yellow {
+  background-color: #FFE036;
+}
+/*# sourceMappingURL=style.css.map */
